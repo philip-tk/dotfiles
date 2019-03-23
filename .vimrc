@@ -23,9 +23,10 @@ let mapleader=","
 " Specify a directory for plugins 
 call plug#begin('~/.vim/plugged')
 
-Plug 'junegunn/goyo.vim'		"Centralised text
-Plug 'terryma/vim-multiple-cursors'	"Multiple cursors
+Plug 'junegunn/goyo.vim'				"Centralised text
+Plug 'terryma/vim-multiple-cursors'			"Multiple cursors
 Plug 'crusoexia/vim-monokai'
+Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }	"Live latex viewing
 
 call plug#end()
 
