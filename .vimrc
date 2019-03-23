@@ -26,7 +26,6 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/goyo.vim'				"Centralised text
 Plug 'terryma/vim-multiple-cursors'			"Multiple cursors
 Plug 'crusoexia/vim-monokai'
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }	"Live latex viewing
 
 call plug#end()
 
@@ -40,12 +39,6 @@ syntax on
 
 "Set colorscheme
 colorscheme monokai
-
-"Setting updatetime for vim-texing.
-autocmd Filetype tex setl updatetime=1
-
-"Setting Preview as default for previewing.
-let g:livepreview_previewer = 'open -a Preview'
 
 "========== Mappings ==========
 
