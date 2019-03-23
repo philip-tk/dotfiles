@@ -41,6 +41,12 @@ syntax on
 "Set colorscheme
 colorscheme monokai
 
+"Setting updatetime for vim-texing.
+autocmd Filetype tex setl updatetime=1
+
+"Setting Preview as default for previewing.
+let g:livepreview_previewer = 'open -a Preview'
+
 "========== Mappings ==========
 
 " move vertically by visual line
@@ -58,4 +64,3 @@ inoremap jk <Esc>
 
 " toggle Goyo
 nnoremap <leader>f :Goyo<CR>
-
