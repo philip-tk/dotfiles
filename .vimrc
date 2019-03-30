@@ -40,6 +40,9 @@ syntax on
 "Set colorscheme
 colorscheme monokai
 
+"Compile LaTeX documents by hitting control T.
+autocmd FileType tex nmap <buffer> <C-T> :!latexmk -pdf %<CR>
+
 "========== Mappings ==========
 
 " move vertically by visual line
