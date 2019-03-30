@@ -43,6 +43,9 @@ colorscheme monokai
 "Compile LaTeX documents by hitting control T.
 autocmd FileType tex nmap <buffer> <C-T> :!latexmk -pdf %<CR>
 
+"Open current LaTeX pdf output file in skim.
+autocmd FileType tex nmap <buffer> T :!open -a Skim %:r.pdf<CR><CR>
+
 "========== Mappings ==========
 
 " move vertically by visual line
