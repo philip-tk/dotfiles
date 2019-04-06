@@ -1,7 +1,7 @@
 # Created by philip-tk for 5.7.1
 
 # Activate vi-mode with <Esc>:
-set -o vi
+bindkey -v
 
 # Common aliases that I use
 alias q='exit'
