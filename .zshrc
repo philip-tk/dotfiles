@@ -10,6 +10,7 @@ alias la='ls -a'
 alias cs='clear; ls'
 alias ca='clear; ls -a'
 alias tmux="TERM=screen-256color-bce tmux"
+alias v='vim'
 
 #Completion for autojump package
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
