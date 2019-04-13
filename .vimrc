@@ -51,7 +51,7 @@ nnoremap j gj
 nnoremap k gk
 
 " Toggle spellcheck with <sp>
-noremap sp :setlocal<space>spell!<CR>
+noremap <silent> sp :setlocal<space>spell!<CR>
 
 " Get tab to do autocompletion.
 inoremap <Tab> <C-P>
