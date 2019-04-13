@@ -50,7 +50,7 @@ nnoremap j gj
 nnoremap k gk
 
 " Toggle spellcheck with <sp>
-noremap sp :setlocal<space>spell<CR>
+noremap sp :setlocal<space>spell!<CR>
 
 " Shortcutting split navigation, saving a keypress:
 map <C-h> <C-w>h
