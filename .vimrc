@@ -15,6 +15,10 @@ set incsearch			"Search as characters are entered
 set hlsearch			"Highlight search matches
 set ruler			"Shows position of cursor
 set splitbelow splitright	"Non-retraded splitting
+set hidden			"Buffers can exist in the background
+set linebreak			"Allows word wrapping
+
+syntax on			"Allows syntax highlighting
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x
@@ -29,13 +33,6 @@ Plug 'crusoexia/vim-monokai'
 
 call plug#end()
 
-" This makes vim act like all other editors, buffers can
-" exist in the background without being in a window.
-" http://items.sjbach.com/319/configuring-vim-right
-set hidden
-
-"turn on syntax highlighting
-syntax on
 
 "Set colorscheme
 colorscheme monokai
