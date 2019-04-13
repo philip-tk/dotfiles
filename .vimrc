@@ -17,6 +17,7 @@ set ruler			"Shows position of cursor
 set splitbelow splitright	"Non-retraded splitting
 set hidden			"Buffers can exist in the background
 set linebreak			"Allows word wrapping
+set complete+=kspell		"Allows tab completion for insert mode
 
 syntax on			"Allows syntax highlighting
 
@@ -51,6 +52,9 @@ nnoremap k gk
 
 " Toggle spellcheck with <sp>
 noremap sp :setlocal<space>spell!<CR>
+
+" Get tab to do autocompletion.
+inoremap <Tab> <C-P>
 
 " Shortcutting split navigation, saving a keypress:
 map <C-h> <C-w>h
