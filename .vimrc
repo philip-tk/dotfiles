@@ -29,7 +29,6 @@ let mapleader=","
 call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/goyo.vim'				"Centralised text
-Plug 'terryma/vim-multiple-cursors'			"Multiple cursors
 Plug 'crusoexia/vim-monokai'
 
 call plug#end()
