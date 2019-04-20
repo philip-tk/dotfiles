@@ -3,7 +3,10 @@
 # Activate vi-mode with <Esc>:
 bindkey -v
 
-# Common aliases that I use
+############################
+###### COMMON ALIASES ######
+#############################
+
 alias q='exit'
 alias c='clear'
 alias la='ls -a'
