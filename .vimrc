@@ -73,9 +73,3 @@ let g:UltiSnipsExpandTrigger = '<Tab>'
 let g:UltiSnipsJumpForwardTrigger = '<Tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<C-Tab>'
 
-
-snippet ( "Expand parenthesis" wsm
-
-( $1 ) $0
-
-endsnippet
