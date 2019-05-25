@@ -54,7 +54,7 @@ nnoremap k gk
 noremap <silent> sp :setlocal<space>spell!<CR>
 
 " Get tab to do autocompletion.
-inoremap <Tab> <C-P>
+inoremap <S-Tab> <C-P>
 
 " Shortcutting split navigation, saving a keypress:
 map <C-h> <C-w>h
