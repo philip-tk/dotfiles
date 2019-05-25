@@ -30,6 +30,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/goyo.vim'				"Centralised text
 Plug 'crusoexia/vim-monokai'
+Plug 'SirVer/ultisnips'
 
 call plug#end()
 
