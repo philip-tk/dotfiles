@@ -31,6 +31,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/goyo.vim'		"Centralised text
 Plug 'crusoexia/vim-monokai'		"Monokai Colourscheme
 Plug 'SirVer/ultisnips'			"UltiSnips to create snippets
+Plug 'honza/vim-snippets'		"Snippet engine
 
 call plug#end()
 
