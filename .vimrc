@@ -28,9 +28,9 @@ let mapleader=","
 " Specify a directory for plugins 
 call plug#begin('~/.vim/plugged')
 
-Plug 'junegunn/goyo.vim'				"Centralised text
-Plug 'crusoexia/vim-monokai'
-Plug 'SirVer/ultisnips'
+Plug 'junegunn/goyo.vim'		"Centralised text
+Plug 'crusoexia/vim-monokai'		"Monokai Colourscheme
+Plug 'SirVer/ultisnips'			"UltiSnips to create snippets
 
 call plug#end()
 
@@ -67,3 +67,15 @@ inoremap jk <Esc>
 
 " toggle Goyo
 nnoremap <leader>f :Goyo<CR>
+
+" Ulti-Snip Configuration
+let g:UltiSnipsExpandTrigger = '<Tab>'
+let g:UltiSnipsJumpForwardTrigger = '<Tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<C-Tab>'
+
+
+snippet ( "Expand parenthesis" wsm
+
+( $1 ) $0
+
+endsnippet
