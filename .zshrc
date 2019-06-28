@@ -3,6 +3,9 @@
 # Activate vi-mode with <Esc>:
 bindkey -v
 
+# Remove the problems with locale categories.
+export LC_ALL=en_US.UTF-8
+
 ############################
 ###### COMMON ALIASES ######
 #############################
