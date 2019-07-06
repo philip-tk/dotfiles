@@ -51,6 +51,13 @@ autocmd FileType tex nmap <buffer> T :!open -a Skim %:r.pdf<CR><CR>
 nnoremap j gj
 nnoremap k gk
 
+" Autocomplete brackets and etc.
+inoremap ( ()<Left>
+inoremap ' ''<Left>
+inoremap [ []<Left>
+inoremap { {}<Left>
+inoremap " ""<Left>
+
 " Toggle spellcheck with <sp>
 noremap <silent> sp :setlocal<space>spell!<CR>
 
