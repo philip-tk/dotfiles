@@ -61,7 +61,7 @@ inoremap " ""<Left>
 " Toggle spellcheck with <sp>
 noremap <silent> sp :setlocal<space>spell!<CR>
 
-" Get tab to do autocompletion.
+" Get Shift - Tab to do autocompletion.
 inoremap <S-Tab> <C-P>
 
 " Shortcutting split navigation, saving a keypress:
