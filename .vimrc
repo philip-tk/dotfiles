@@ -52,8 +52,8 @@ nnoremap j gj
 nnoremap k gk
 
 " Autocomplete brackets and etc.
-inoremap ( ()<Left>
 inoremap ' ''<Left>
+inoremap ( ()<Left>
 inoremap [ []<Left>
 inoremap { {}<Left>
 inoremap " ""<Left>
