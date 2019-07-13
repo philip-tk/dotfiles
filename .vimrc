@@ -76,8 +76,13 @@ inoremap jk <Esc>
 " toggle Goyo
 nnoremap <leader>f :Goyo<CR>
 
+" Open UltiSnips edit function.
+nmap <leader>ue :UltiSnipsEdit<cr>
+
 " Ulti-Snip Configuration
 let g:UltiSnipsExpandTrigger = '<Tab>'
 let g:UltiSnipsJumpForwardTrigger = '<Tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<C-Tab>'
+let g:UltiSnipsSnippetsDir = "~/.vim/plugged/ultisnips/UltiSnips"
+let g:UltiSnipsEditSplit="vertical"
 
