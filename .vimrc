@@ -76,7 +76,7 @@ inoremap jk <Esc>
 " toggle Goyo
 nnoremap <leader>f :Goyo<CR>
 
-" Open UltiSnips edit function.
+" Open UltiSnips edit function with ,ue .
 nmap <leader>ue :UltiSnipsEdit<cr>
 
 " Ulti-Snip Configuration
