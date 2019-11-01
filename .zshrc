@@ -24,3 +24,6 @@ alias mtner='cd ~/Documents/Coding/ShellScripts/Tools/Maintainer; ./maintainer.s
 
 # Stuff related to the todo.txt CLI.
 alias t='~/todo/todo.sh -d ~/todo/todo.cfg' 
+
+# This line enables syntax highlighting in zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
