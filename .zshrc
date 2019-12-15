@@ -4,11 +4,7 @@
 bindkey -v
 export KEYTIMEOUT=1
 
-PS1="[%n@%B%F{81}%m %b%f%~]$"
-
-# History config
-HISTFILE=1000
-SAVEHIST=1000
+PS1="[%n@%B%F{81}%m %b%f%~]$ "
 
 # Basic auto/tab complete
 autoload -U compinit
