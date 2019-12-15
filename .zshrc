@@ -4,7 +4,7 @@
 bindkey -v
 export KEYTIMEOUT=1
 
-PS1="%n@%B%F{81}%m %~ %# "
+PS1="[%n@%B%F{81}%m %b%f%~]$"
 
 # History config
 HISTFILE=1000
