@@ -2,9 +2,21 @@
 
 # Activate vi-mode with <Esc>:
 bindkey -v
+export KEYTIMEOUT=1
 
-# Remove the problems with locale categories.
-export LC_ALL=en_US.UTF-8
+PS1="%n@%m %~ %# "
+
+# History config
+HISTFILE=1000
+SAVEHIST=1000
+
+# Basic auto/tab complete
+autoload -U compinit
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+compinit
+_comp_options+=(globdots)		# Include hidden files
+
 
 ############################
 ###### COMMON ALIASES ######
@@ -15,15 +27,7 @@ alias c='clear'
 alias la='ls -a'
 alias cs='clear; ls'
 alias ca='clear; ls -a'
-alias tmux="TERM=screen-256color-bce tmux"
 alias v='vim'
-alias mtner='cd ~/Documents/Coding/ShellScripts/Tools/Maintainer; ./maintainer.sh; cd ~/'
-
-#Completion for autojump package
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
-
-# Stuff related to the todo.txt CLI.
-alias t='~/todo/todo.sh -d ~/todo/todo.cfg' 
 
 # This line enables syntax highlighting in zsh
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
