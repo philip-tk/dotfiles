@@ -5,6 +5,7 @@ done &
 
 ~/.fehbg &
 
+xbindkeys
 exec dwm
 exec --no-startup-id "pulseaudio --start"
 
