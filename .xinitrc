@@ -1,5 +1,5 @@
 while true; do
-	xsetroot -name " $(date +%d) $(date +%B) $(date +%y) | $(cat /sys/class/power_supply/BAT0/capacity)% "
+	xsetroot -name " $(date +%d) $(date +%B) $(date +%y) | $(date +%H%M) hrs | $(cat /sys/class/power_supply/BAT0/capacity)% "
 	sleep 5
 done &
 
