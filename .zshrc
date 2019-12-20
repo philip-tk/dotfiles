@@ -25,8 +25,5 @@ alias cs='clear; ls'
 alias ca='clear; ls -a'
 alias v='vim'
 
-# This line enables auto-jump functionality.
-[[ -s /etc/profile.d/autojump.zsh ]] && source /etc/profile.d/autojump.zsh]]
-
 # This line enables syntax highlighting in zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
