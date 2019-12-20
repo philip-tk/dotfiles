@@ -21,9 +21,12 @@ _comp_options+=(globdots)		# Include hidden files
 alias q='exit'
 alias c='clear'
 alias la='ls -a'
+alias ll="ls -la"
 alias cs='clear; ls'
 alias ca='clear; ls -a'
+alias cl='clear; ls -la'
 alias v='vim'
+alias g="git"
 
 # This line enables syntax highlighting in zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
