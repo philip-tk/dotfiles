@@ -1,5 +1,5 @@
 while true; do
-	xsetroot -name "Battery Level: $(cat /sys/class/power_supply/BAT0/capacity)%"
+	xsetroot -name "$(date +%d/%m/%y-%H:%M) | $(cat /sys/class/power_supply/BAT0/capacity)% "
 	sleep 5
 done &
 
