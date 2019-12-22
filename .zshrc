@@ -28,6 +28,10 @@ alias cl='clear; ls -la'
 alias v='vim'
 alias g="git"
 
+# SETTING DEFAULTS
+
+export EDITOR='vim'
+
 if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
 	exec startx
 fi
