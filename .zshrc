@@ -27,6 +27,7 @@ alias ca='clear; ls -a'
 alias cl='clear; ls -la'
 alias v='vim'
 alias g="git"
+alias ff='firefox'
 
 # SETTING DEFAULTS
 
