@@ -1,1 +1,2 @@
-color "type=HEADINGS fg=7 bg=0" 
+color "type=HEADINGS fg=BLACK bg=RED" 
+color "type=CELL_SELECTION fg=BLACK bg=WHITE" 
