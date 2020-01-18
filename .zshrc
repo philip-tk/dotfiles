@@ -2,6 +2,9 @@
 
 # Activate vi-mode with <Esc>:
 bindkey -v
+
+# Enable reverse-i-search with Ctrl-R:
+bindkey '^R' history-incremental-pattern-search-backward
 export KEYTIMEOUT=1
 
 PS1="[%n@%B%F{81}%m %b%f%~]$ "
