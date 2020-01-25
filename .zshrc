@@ -7,7 +7,13 @@ bindkey -v
 bindkey '^R' history-incremental-pattern-search-backward
 export KEYTIMEOUT=1
 
+# Setting the Command Prompt:
 PS1="[%n@%B%F{81}%m %b%f%~]$ "
+
+# History in cashe directory:
+HISTSIZE=10000
+SAVEHIST=10000
+HISTFILE=~/.cache/zsh/history
 
 # Basic auto/tab complete
 autoload -U compinit
@@ -16,6 +22,11 @@ zmodload zsh/complist
 compinit
 _comp_options+=(globdots)		# Include hidden files
 
+# Use Vim keys in tab complete menu:
+bindkey -M menuselect 'h' vi-backward-char
+bindkey -M menuselect 'k' vi-up-line-or-history
+bindkey -M menuselect 'l' vi-forward-char
+bindkey -M menuselect 'j' vi-down-line-or-history
 
 ############################
 ###### COMMON ALIASES ######
@@ -42,6 +53,9 @@ fi
 
 # Autojump setup
 [[ -s /etc/profile.d/autojump.sh ]] && source /etc/profile.d/autojump.sh
+
+# Auto-suggestions setup
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # This line enables syntax highlighting in zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
