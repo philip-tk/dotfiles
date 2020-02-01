@@ -18,6 +18,8 @@ set splitbelow splitright	"Non-retraded splitting
 set hidden			"Buffers can exist in the background
 set linebreak			"Allows word wrapping
 set complete+=kspell		"Allows tab completion for insert mode
+set ignorecase			"Ignores case during autocompletion
+set infercase			"Infers case for autocompletion
 
 syntax on			"Allows syntax highlighting
 
@@ -46,9 +48,6 @@ nnoremap k gk
 
 " Toggle spellcheck with <sp>
 noremap <silent> sp :setlocal<space>spell!<CR>
-
-" Get Shift - Tab to do autocompletion.
-inoremap <S-Tab> <C-P>
 
 " Shortcutting split navigation, saving a keypress:
 map <C-h> <C-w>h
