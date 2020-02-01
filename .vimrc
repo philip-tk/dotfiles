@@ -9,6 +9,7 @@ set backspace=indent,eol,start  "Allow backspace in insert mode
 set showcmd                     "Show incomplete cmds down the bottom
 set showmode			"Show current mode at bottomline
 set autoread                    "Reload files changed outside vim
+set autoindent			"Inserts indents automatically
 set cursorline			"Highlight current line
 set wildmenu			"Visual auto-complete for command menu
 set incsearch			"Search as characters are entered
@@ -30,7 +31,7 @@ let mapleader=","
 " Specify a directory for plugins 
 call plug#begin('~/.vim/plugged')
 
-Plug 'junegunn/goyo.vim'		"Centralised text
+Plug 'junegunn/goyo.vim'		"Condusive environment for writing prose
 Plug 'crusoexia/vim-monokai'		"Monokai Colourscheme
 Plug 'SirVer/ultisnips'			"UltiSnips to create snippets
 
@@ -43,8 +44,8 @@ colorscheme monokai
 "========== Mappings ==========
 
 " move vertically by visual line
-nnoremap j gj
-nnoremap k gk
+nnoremap <Up> gj
+nnoremap <Down> gk
 
 " Toggle spellcheck with <sp>
 noremap <silent> sp :setlocal<space>spell!<CR>
