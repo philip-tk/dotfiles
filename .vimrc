@@ -22,6 +22,7 @@ set complete+=kspell		"Allows tab completion for insert mode
 set ignorecase			"Ignores case during autocompletion
 set infercase			"Infers case for autocompletion
 set mps+=<:>			"Matches quote pairs and angular brackets
+filetype plugin indent on	"Filetype indent detection
 
 syntax on			"Allows syntax highlighting
 
