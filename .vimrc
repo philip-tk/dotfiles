@@ -21,6 +21,7 @@ set linebreak			"Allows word wrapping
 set complete+=kspell		"Allows tab completion for insert mode
 set ignorecase			"Ignores case during autocompletion
 set infercase			"Infers case for autocompletion
+set matchpairs+=':',":",<:>	"Matches quote pairs and angular brackets
 
 syntax on			"Allows syntax highlighting
 
@@ -44,11 +45,14 @@ colorscheme monokai
 "========== Mappings ==========
 
 " move vertically by visual line
-nnoremap <Up> gj
-nnoremap <Down> gk
+nnoremap <Up> gk
+nnoremap <Down> gj
+
+" Remap Y to y$, because yy can already yank full lines
+nnoremap Y y$
 
 " Toggle spellcheck with <sp>
-noremap <silent> sp :setlocal<space>spell!<CR>
+noremap <leader> sp :setlocal<space>spell!<CR>
 
 " Shortcutting split navigation, saving a keypress:
 map <C-h> <C-w>h
