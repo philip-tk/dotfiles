@@ -21,7 +21,7 @@ set linebreak			"Allows word wrapping
 set complete+=kspell		"Allows tab completion for insert mode
 set ignorecase			"Ignores case during autocompletion
 set infercase			"Infers case for autocompletion
-set matchpairs+=':',":",<:>	"Matches quote pairs and angular brackets
+set mps+=<:>			"Matches quote pairs and angular brackets
 
 syntax on			"Allows syntax highlighting
 
