@@ -52,8 +52,8 @@ nnoremap <Down> gj
 " Remap Y to y$, because yy can already yank full lines
 nnoremap Y y$
 
-" Toggle spellcheck with <sp>
-noremap <leader> sp :setlocal<space>spell!<CR>
+" Toggle spellcheck with ,c
+noremap <leader>c :setlocal<space>spell!<CR>
 
 " Shortcutting split navigation, saving a keypress:
 map <C-h> <C-w>h
