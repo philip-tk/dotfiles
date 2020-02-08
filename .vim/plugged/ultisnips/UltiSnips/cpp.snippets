@@ -10,7 +10,7 @@ snippet inc "include" bA
 $0
 endsnippet
 
-snippet std "Use std" bA
+snippet use "Use std" bA
 using namespace std;
 $0
 endsnippet
@@ -19,6 +19,12 @@ snippet main "int main" bA
 int main () {
 	$0
 	return 0;
+}
+endsnippet
+
+snippet fint "int function" bA
+int $1 ( $2 ) {
+	$0
 }
 endsnippet
 
