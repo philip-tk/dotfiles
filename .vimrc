@@ -36,6 +36,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/goyo.vim'		"Condusive environment for writing prose
 Plug 'crusoexia/vim-monokai'		"Monokai Colourscheme
 Plug 'SirVer/ultisnips'			"UltiSnips to create snippets
+Plug 'tpope/vim-surround'		"Better surround support
+Plug 'tmsvg/pear-tree'			"Auto-pair plugin
 
 call plug#end()
 
