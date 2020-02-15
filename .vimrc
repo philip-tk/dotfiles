@@ -69,10 +69,16 @@ inoremap jk <Esc>
 " toggle Goyo
 nnoremap <leader>f :Goyo<CR>
 
-" Open UltiSnips edit function with ,ue
-nmap <leader>ue :UltiSnipsEdit<cr>
+" PearTree Configuration
+
+let g:pear_tree_smart_openers = 1
+let g:pear_tree_smart_closers = 1
 
 " Ulti-Snip Configuration
+"
+"Open UltiSnips edit function with ,ue
+nmap <leader>ue :UltiSnipsEdit<cr>
+
 let g:UltiSnipsExpandTrigger = '<Tab>'
 let g:UltiSnipsJumpForwardTrigger = '<Tab>'
 let g:UltiSnipsJumpBackwardTrigger = '<C-Tab>'
