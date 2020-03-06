@@ -2,6 +2,7 @@
 ### {{{
 set color_win_bg=234
 set color_win_fg=252
+set color_separator=238
 # bottom status line
 set color_statusline_fg=148
 set color_statusline_bg=238
