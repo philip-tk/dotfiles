@@ -46,10 +46,10 @@ alias fl='less $(fzf)'
 alias fv='vim $(fzf)'
 
 # SETTING DEFAULTS
+export EDITOR="vim"
 
-export EDITOR='vim'
-
-if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
+# Start X after logon
+if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
 	exec startx
 fi
 
