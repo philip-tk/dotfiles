@@ -39,15 +39,15 @@
 # Examples of commands:
 
 # Increase volume
-"pactl set-sink-volume @DEFAULT_SINK@ +10%" 
+"amixer set Master 5%+" 
   XF86AudioRaiseVolume
 
 # Decrease volume
-"pactl set-sink-volume @DEFAULT_SINK@ -10%" 
+"amixer set Master 5%-" 
   XF86AudioLowerVolume
 
 # Mute volume
-"pactl set-sink-mute @DEFAULT_SINK@ toggle" 
+"amixer set Master toggle" 
   XF86AudioMute
 
 ##################################
