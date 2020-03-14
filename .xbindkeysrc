@@ -50,6 +50,14 @@
 "amixer set Master toggle" 
   XF86AudioMute
 
+# Sleep
+"prompt 'Sleep?' 'sudo zzz'"
+  Mod4 + z
+
+# Hibernate
+"prompt 'Hibernate?' 'sudo ZZZ'"
+  Shift+Mod4 + z
+
 # Shutdown
 "prompt 'Shutdown?' 'sudo runit-init 0'"
   Mod4 + s
@@ -57,6 +65,10 @@
 # Reboot
 "prompt 'Reboot?' 'sudo runit-init 6'"
   Mod4 + r
+
+# play/pause cmus
+"cmus-remote -u"
+  Mod4 + c
 
 ##################################
 # End of xbindkeys configuration #
