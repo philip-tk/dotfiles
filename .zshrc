@@ -10,6 +10,10 @@ export KEYTIMEOUT=1
 # Setting the Command Prompt:
 PS1="[%n@%B%F{81}%m %b%f%~]$ "
 
+# Add Local scripts to $PATH
+PATH="$HOME/.local/bin:${PATH}"
+export PATH
+
 # History in cashe directory:
 HISTSIZE=10000
 SAVEHIST=10000
