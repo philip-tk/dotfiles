@@ -1,30 +1,30 @@
-" Use Vim settings, rather then Vi settings (much better!).Work?
+" Use Vim settings, rather then Vi settings
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 
-" ================ General Config ====================
+" ============================ General Config ===============================
 
-set number relativenumber       "Relative line-numbering
-set backspace=indent,eol,start  "Allow backspace in insert mode
-set showcmd                     "Show incomplete cmds down the bottom
-set showmode			"Show current mode at bottomline
-set autoread                    "Reload files changed outside vim
-set autoindent			"Inserts indents automatically
-set cursorline			"Highlight current line
-set wildmenu			"Visual auto-complete for command menu
-set incsearch			"Search as characters are entered
-set hlsearch			"Highlight search matches
-set ruler			"Shows position of cursor
-set splitbelow splitright	"Non-retraded splitting
-set hidden			"Buffers can exist in the background
-set linebreak			"Allows word wrapping
-set complete+=kspell		"Allows tab completion for insert mode
-set ignorecase			"Ignores case during autocompletion
-set infercase			"Infers case for autocompletion
-set mps+=<:>			"Matches quote pairs and angular brackets
-filetype plugin indent on	"Filetype indent detection
-
-syntax on			"Allows syntax highlighting
+set number relativenumber       	"Relative line-numbering
+set backspace=indent,eol,start  	"Allow backspace in insert mode
+set showcmd                     	"Show incomplete cmds down the bottom
+set showmode				"Show current mode at bottomline
+set autoread                    	"Reload files changed outside vim
+set autoindent				"Inserts indents automatically
+set cursorline				"Highlight current line
+set wildmenu				"Visual auto-complete for command menu
+set incsearch				"Search as characters are entered
+set hlsearch				"Highlight search matches
+set ruler				"Shows position of cursor
+set splitbelow splitright		"Non-retraded splitting
+set hidden				"Buffers can exist in the background
+set linebreak				"Allows word wrapping
+set complete+=kspell			"Allows tab completion for insert mode
+set ignorecase				"Ignores case during autocompletion
+set infercase				"Infers case for autocompletion
+set mps+=<:>				"Matches quote pairs and angular brackets
+set directory=$HOME/.vim//swapfiles//	"Moves swapfiles out of $HOME
+filetype plugin indent on		"Filetype indent detection
+syntax on				"Allows syntax highlighting
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x
@@ -70,7 +70,6 @@ inoremap jk <Esc>
 nnoremap <leader>f :Goyo<CR>
 
 " PearTree Configuration
-
 let g:pear_tree_smart_openers = 1
 let g:pear_tree_smart_closers = 1
 
