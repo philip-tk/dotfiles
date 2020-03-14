@@ -50,6 +50,14 @@
 "amixer set Master toggle" 
   XF86AudioMute
 
+# Shutdown
+"prompt 'Shutdown?' 'sudo runit-init 0'"
+  Mod4 + s
+
+# Reboot
+"prompt 'Reboot?' 'sudo runit-init 6'"
+  Mod4 + r
+
 ##################################
 # End of xbindkeys configuration #
 ##################################
