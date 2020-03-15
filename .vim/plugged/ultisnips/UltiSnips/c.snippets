@@ -1,13 +1,3 @@
-snippet def "#define"
-#define $1
-endsnippet
-
-snippet #ifndef "#ifndef ... #define ... #endif"
-#ifndef ${1/([A-Za-z0-9_]+).*/$1/}
-#define ${1:SYMBOL} ${2:value}
-#endif /* ifndef $1 */
-endsnippet
-
 snippet main "main() (main)"
 int main(int argc, char *argv[])
 {
@@ -20,4 +10,8 @@ snippet for "for loop (for)"
 for (${2:i} = 0; $2 < ${1:count}; ${3:++$2}) {
 	${VISUAL}$0
 }
+endsnippet
+
+snippet printf "printf .. (printf)"
+printf("${1:%s}\n"${1/([^%]|%%)*(%.)?.*/(?2:, :\);)/}$2${1/([^%]|%%)*(%.)?.*/(?2:\);)/}
 endsnippet
