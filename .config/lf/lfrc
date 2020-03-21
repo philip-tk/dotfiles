@@ -1,0 +1,7 @@
+cmd bulkrename ${{
+	vidir
+}}
+
+#Bindings
+map b bulkrename
+map D delete
