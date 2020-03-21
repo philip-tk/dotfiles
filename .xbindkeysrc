@@ -70,6 +70,18 @@
 "cmus-remote -u"
   Mod4 + c
 
+# Open Zathura
+"zathura"
+  Mod4 + p
+
+# Open Firefox
+"firefox"
+  Mod4 + f
+
+# Open Syncthing
+"st syncthing"
+  Mod4 + y
+
 ##################################
 # End of xbindkeys configuration #
 ##################################
