@@ -22,7 +22,6 @@ set complete+=kspell			"Allows tab completion for insert mode
 set ignorecase				"Ignores case during autocompletion
 set infercase				"Infers case for autocompletion
 set mps+=<:>				"Matches quote pairs and angular brackets
-set tabstop=4				"Set tabs to 4 spaces
 set directory=$HOME/.vim//swapfiles//	"Moves swapfiles out of $HOME
 filetype plugin indent on		"Filetype indent detection
 syntax on				"Allows syntax highlighting
@@ -39,6 +38,7 @@ Plug 'crusoexia/vim-monokai'		"Monokai Colourscheme
 Plug 'SirVer/ultisnips'			"UltiSnips to create snippets
 Plug 'tobyS/skeletons.vim'		"Simple vim-skeleton plugins
 Plug 'tpope/vim-surround'		"Better surround support
+Plug 'tpope/vim-commentary'		"Comment stuff out using gc
 Plug 'tmsvg/pear-tree'			"Auto-pair plugin
 Plug 'vimoutliner/vimoutliner'		"Vim Outliner plugin (:help vo)
 
