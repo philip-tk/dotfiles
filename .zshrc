@@ -3,6 +3,9 @@
 # Activate vi-mode with <Esc>:
 bindkey -v
 
+# Extended globbing
+setopt extendedglob
+
 # Enable reverse-i-search with Ctrl-R:
 bindkey '^R' history-incremental-pattern-search-backward
 export KEYTIMEOUT=1
