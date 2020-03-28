@@ -59,6 +59,8 @@ nnoremap Y y$
 " Toggle spellcheck with ,c
 noremap <leader>c :setlocal<space>spell!<CR>
 
+noremap <leader>t :bel term<CR>
+
 " Shortcutting split navigation, saving a keypress:
 map <C-h> <C-w>h
 map <C-j> <C-w>j
