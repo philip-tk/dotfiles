@@ -38,6 +38,7 @@ while true; do
 done &
 
 ~/.fehbg &
+xset r rate 300 50 &
 
 xbindkeys
 exec dwm
