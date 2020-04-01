@@ -1,2 +1,3 @@
 #!/bin/sh
 feh --no-fehbg --bg-scale '/home/philip/Documents/Wallpaper/Wallpaper.jpg' 
+# Please link the wallpaper you wish to use
