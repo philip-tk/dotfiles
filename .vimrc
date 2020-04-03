@@ -18,10 +18,11 @@ set ruler				"Shows position of cursor
 set splitbelow splitright		"Non-retraded splitting
 set hidden				"Buffers can exist in the background
 set linebreak				"Allows word wrapping
-set complete+=kspell			"Allows tab completion for insert mode
+set complete+=k				"Allows tab completion for insert mode
 set ignorecase				"Ignores case during autocompletion
 set infercase				"Infers case for autocompletion
 set mps+=<:>				"Matches quote pairs and angular brackets
+set dictionary+=/usr/share/dict/words	"Shows vim where the dictionary is.
 set directory=$HOME/.vim//swapfiles//	"Moves swapfiles out of $HOME
 filetype plugin indent on		"Filetype indent detection
 syntax on				"Allows syntax highlighting
@@ -33,7 +34,7 @@ let mapleader=","
 " Specify a directory for plugins 
 call plug#begin('~/.vim/plugged')
 
-Plug 'junegunn/goyo.vim'		"Condusive environment for writing prose
+Plug 'junegunn/goyo.vim'		"Conducive environment for writing prose
 Plug 'crusoexia/vim-monokai'		"Monokai Colourscheme
 Plug 'SirVer/ultisnips'			"UltiSnips to create snippets
 Plug 'tobyS/skeletons.vim'		"Simple vim-skeleton plugins
