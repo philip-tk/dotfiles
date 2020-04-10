@@ -6,6 +6,11 @@ bindkey -v
 # Extended globbing
 setopt extendedglob
 
+# Enable history completion with Ctrl-J:
+autoload -Uz history-beginning-search-menu
+zle -N history-beginning-search-menu
+bindkey '^J' history-beginning-search-menu
+
 # Enable reverse-i-search with Ctrl-R:
 bindkey '^R' history-incremental-pattern-search-backward
 export KEYTIMEOUT=1
