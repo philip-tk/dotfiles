@@ -79,7 +79,7 @@
   Mod4 + f
 
 # Open clipboard selection in mpv
-"mpv $(xclip -se c -o)"
+"st mpv $(xclip -se c -o)"
   Mod4 + u
 
 # Open Syncthing
