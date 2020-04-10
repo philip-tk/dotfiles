@@ -39,6 +39,8 @@ done &
 
 ~/.fehbg &
 xset r rate 300 50 &
+xmodmap .xmodmaprc
+xcape -e '#66=Escape'
 xbanish &
 
 xbindkeys
