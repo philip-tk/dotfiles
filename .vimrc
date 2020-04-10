@@ -68,9 +68,6 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-" jk is escape
-inoremap jk <Esc>
-
 " toggle Goyo
 nnoremap <leader>f :Goyo<CR>
 
