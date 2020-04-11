@@ -1,0 +1,27 @@
+\documentclass[12pt, a4paper]{article}
+\pagestyle{headings}
+\title{My dotfiles}
+\author{Philip Thomas K.}
+
+\begin{document}
+\maketitle
+
+These are my configuration files.
+I will go through them to highlight the settings and keybindings that stray from the default.
+
+\section{Zsh}
+
+The shell that I use in my terminal emulator is zsh.
+I have enabled vi-mode in zsh.
+You can activate it using \texttt{<Esc>}.
+
+I have also enabled extended globbing, which allows me to do things like this:
+
+\begin{center}
+\verb|$ rm *~*.txt|
+\end{center}
+
+Which removes everything \textbf{except} files ending in ``\texttt{.txt}" .
+This is exceptionally helpful when dealing with \LaTeX{} files because the compiler makes all sorts of unnecessary files.
+
+\end{document}
