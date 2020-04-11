@@ -24,4 +24,19 @@ I have also enabled extended globbing, which allows me to do things like this:
 Which removes everything \textbf{except} files ending in ``\texttt{.txt}" .
 This is exceptionally helpful when dealing with \LaTeX{} files because the compiler makes all sorts of unnecessary files.
 
+Next up, \texttt{<Ctrl-j>} is used to search through your shell history for the string before your cursor.
+This brings up a menu with commands and an index for each command.
+Typing in an index will shove that command into your prompt.
+
+I have also enabled reverse incremental search with \texttt{<Ctrl-r>}.
+Not only does this search backward for a command, it also accepts pattern searches.
+Useful if you are searching for a variation of a common command.
+
+If you are halfway through a command, and wish to use the auto-complete, just hit the \texttt{<Tab>} key.
+If there is only one possible auto-complete option, it will go straight into the line.
+
+However, if there are multiple auto-complete options, hitting the \texttt{<Tab>} key lists out the amount of possible options.
+Hitting the \texttt{<Tab>} key again will put you in the list.
+From here, you can use vim keys to navigate to the correct option and select it by pressing \texttt{<Enter>}.
+
 \end{document}
