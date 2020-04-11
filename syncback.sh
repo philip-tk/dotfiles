@@ -1,3 +1,5 @@
 #!/bin/zsh
+setopt extendedglob
 
-rsync -a -v  --exclude ".git/" --exclude "syncback.sh" --exclude "README.md" ./ ~
+rm -f man*~*.tex
+rsync -a -v  --exclude "man.tex" --exclude ".git/" --exclude "syncback.sh" --exclude "README.md" ./ ~
