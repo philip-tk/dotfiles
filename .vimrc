@@ -42,7 +42,6 @@ Plug 'tobyS/skeletons.vim'		"Simple vim-skeleton plugins
 Plug 'tpope/vim-surround'		"Better surround support
 Plug 'tpope/vim-commentary'		"Comment stuff out using gc
 Plug 'tmsvg/pear-tree'			"Auto-pair plugin
-Plug 'vimoutliner/vimoutliner'		"Vim Outliner plugin (:help vo)
 
 call plug#end()
 
