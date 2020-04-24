@@ -41,7 +41,7 @@ Plug 'SirVer/ultisnips'			"UltiSnips to create snippets
 Plug 'tobyS/skeletons.vim'		"Simple vim-skeleton plugins
 Plug 'tpope/vim-surround'		"Better surround support
 Plug 'tpope/vim-commentary'		"Comment stuff out using gc
-Plug 'tmsvg/pear-tree'			"Auto-pair plugin
+Plug 'lervag/vimtex'			"Support for LaTeX documents
 
 call plug#end()
 
@@ -49,6 +49,16 @@ call plug#end()
 colorscheme monokai
 
 "========== Mappings ==========
+
+" Surrounder Configuration.
+inoremap ( ()<Left>
+inoremap { {}<Left>
+inoremap [ []<Left>
+inoremap ' ''<Left>
+inoremap " ""<Left>
+
+" Use jk to move out of brackets
+inoremap jk <Right>
 
 " move vertically by visual line
 nnoremap <Up> gk
@@ -67,6 +77,13 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+
+" Vim-tex Configuration
+let g:tex_flavor='latex'
+let g:vimtex_view_method='zathura'
+let g:vimtex_quickfix_mode=0
+set conceallevel=1
+let g:tex_conceal='abdmg'
 
 " toggle Goyo
 nnoremap <leader>f :Goyo<CR>
