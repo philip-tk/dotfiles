@@ -30,7 +30,7 @@ syntax on				"Allows syntax highlighting
 
 " Change leader to a comma because the backslash is too far away
 " That means all \x commands turn into ,x
-let mapleader=","
+let mapleader=" "
 
 " Specify a directory for plugins 
 call plug#begin('~/.vim/plugged')
@@ -38,10 +38,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/goyo.vim'		"Conducive environment for writing prose
 Plug 'crusoexia/vim-monokai'		"Monokai Colourscheme
 Plug 'SirVer/ultisnips'			"UltiSnips to create snippets
-Plug 'tobyS/skeletons.vim'		"Simple vim-skeleton plugins
 Plug 'tpope/vim-surround'		"Better surround support
 Plug 'tpope/vim-commentary'		"Comment stuff out using gc
-Plug 'lervag/vimtex'			"Support for LaTeX documents
 
 call plug#end()
 
@@ -78,19 +76,8 @@ noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
 
-" Vim-tex Configuration
-let g:tex_flavor='latex'
-let g:vimtex_view_method='zathura'
-let g:vimtex_quickfix_mode=0
-set conceallevel=1
-let g:tex_conceal='abdmg'
-
 " toggle Goyo
 nnoremap <leader>f :Goyo<CR>
-
-" PearTree Configuration
-let g:pear_tree_smart_openers = 1
-let g:pear_tree_smart_closers = 1
 
 " Ulti-Snip Configuration
 "
