@@ -73,10 +73,10 @@ noremap <leader>c :setlocal<space>spell!<CR>
 noremap <leader>t :bel term<CR>
 
 " Shortcutting split navigation, saving a keypress:
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
 
 " Vim-tex Configuration
 let g:tex_flavor='latex'
@@ -95,7 +95,7 @@ let g:pear_tree_smart_closers = 1
 " Ulti-Snip Configuration
 "
 "Open UltiSnips edit function with ,ue
-nmap <leader>ue :UltiSnipsEdit<cr>
+nnoremap <leader>ue :UltiSnipsEdit<cr>
 
 let g:UltiSnipsExpandTrigger = '<Tab>'
 let g:UltiSnipsJumpForwardTrigger = '<Tab>'
