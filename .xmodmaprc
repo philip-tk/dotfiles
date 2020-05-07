@@ -9,3 +9,5 @@ keycode 255 = Escape
 ! Make Caps Lock and Control_L work as one would expect
 add Lock = Caps_Lock
 add Control = Control_L
+! After this run the following command in the terminal:
+! xcape -e '#66=Escape'
