@@ -55,8 +55,11 @@ inoremap [ []<Left>
 inoremap ' ''<Left>
 inoremap " ""<Left>
 
-" Use jk to move out of brackets
+" Insert mode movements
 inoremap jk <Right>
+inoremap jj <Down>
+inoremap kk <Up>
+inoremap kj <Left>
 
 " move vertically by visual line
 nnoremap <Up> gk
