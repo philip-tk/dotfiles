@@ -1,0 +1,12 @@
+bind-key j down
+bind-key k up
+bind-key g home
+bind-key G end
+
+# Color settings
+color listnormal yellow black
+color listfocus black yellow bold standout
+color listnormal_unread white black
+color listfocus_unread black green bold standout
+color info black green bold
+color article white black
