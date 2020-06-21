@@ -3,6 +3,8 @@ bind-key k up
 bind-key g home
 bind-key G end
 
+auto-reload yes
+
 # Color settings
 color listnormal yellow black
 color listfocus black yellow bold standout
