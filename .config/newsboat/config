@@ -4,6 +4,7 @@ bind-key g home
 bind-key G end
 
 auto-reload yes
+browser firefox
 
 # Color settings
 color listnormal yellow black
