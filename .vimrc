@@ -52,7 +52,6 @@ colorscheme monokai
 inoremap ( ()<Left>
 inoremap { {}<Left>
 inoremap [ []<Left>
-inoremap ' ''<Left>
 inoremap " ""<Left>
 
 " Insert mode movements
