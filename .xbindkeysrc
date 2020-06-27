@@ -52,39 +52,39 @@
 
 # Sleep
 "prompt 'Sleep?' 'sudo zzz'"
-  Mod4 + z
+  Alt + z
 
 # Hibernate
 "prompt 'Hibernate?' 'sudo ZZZ'"
-  Shift+Mod4 + z
+  Shift+Alt + z
 
 # Shutdown
 "prompt 'Shutdown?' 'sudo runit-init 0'"
-  Mod4 + s
+  Alt + s
 
 # Reboot
 "prompt 'Reboot?' 'sudo runit-init 6'"
-  Mod4 + r
+  Alt + r
 
 # play/pause cmus
 "cmus-remote -u"
-  Mod4 + c
+  Alt + c
 
 # Open Zathura
 "zathura"
-  Mod4 + p
+  Alt + o
 
 # Open Firefox
 "firefox"
-  Mod4 + f
+  Alt + w
 
 # Open clipboard selection in mpv
 "mpv $(xclip -se c -o) > /dev/null 2>&1"
-  Mod4 + u
+  Alt + u
 
 # Open Syncthing
 "st syncthing"
-  Mod4 + y
+  Alt + y
 
 ##################################
 # End of xbindkeys configuration #
