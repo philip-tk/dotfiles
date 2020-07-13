@@ -74,6 +74,9 @@ My \texttt{.vimrc} file is well commented when it comes to my general configurat
 And all the settings applied need no instruction for proper usage.
 
 \subsection{Mappings}
+
+\subsubsection{Surrounders}
+
 I have auto-closing parentheses for most of the different parenthesis-type characters in insert mode.
 Here are the supported ``surrounders":
 
@@ -82,6 +85,20 @@ Here are the supported ``surrounders":
 	\item Curly Braces: \{\}
 	\item Square Brackets: []
 	\item Double quotes: ``"
+\end{itemize}
+
+Single quotes have been deliberately removed from this group to allow for usage of apostrophes.
+These surrounders are very basic and the method I use to jump out of them are my insert-mode movements.
+
+\subsubsection{Insert-mode movements}
+
+In insert-mode, there are settings to move in all directions using just the ``j" and ``k" keys:
+
+\begin{itemize}
+	\item jk: Move Right
+	\item jj: Move Down
+	\item kk: Move Up
+	\item kj: Move Left
 \end{itemize}
 
 \end{document}
