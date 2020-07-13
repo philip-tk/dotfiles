@@ -1,6 +1,40 @@
+snippet template "Basic template" b
+\documentclass[a4paper]{article}
+
+\begin{document}
+	$0
+\end{document}
+endsnippet
+
 snippet beg "begin{} / end{}" bA
 \begin{$1}
-$0
+	$0
 \end{$1}
 endsnippet
 
+snippet enum "Enumerate" bA
+\begin{enumerate}
+	\item $0
+\end{enumerate}
+endsnippet
+
+snippet item "Itemize" bA
+\begin{itemize}
+	\item $0
+\end{itemize}
+endsnippet
+
+snippet mk "Math" wA
+$${1}$`!p
+if t[2] and t[2][0] not in [',', '.', '?', '-', ' ']:
+	snip.rv = ' '
+else:
+	snip.rv = ''
+`$2
+endsnippet
+
+snippet dm "Math" wA
+\[
+$1
+.\] $0
+endsnippet
