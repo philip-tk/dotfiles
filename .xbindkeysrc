@@ -74,8 +74,8 @@
 "zathura"
   Alt + o
 
-# Open Firefox
-"firefox"
+# Open browser
+"$BROWSER"
   Alt + w
 
 # Open clipboard selection in mpv
