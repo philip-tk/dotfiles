@@ -9,7 +9,7 @@ setopt extendedglob
 # Enable history completion with Ctrl-J:
 autoload -Uz history-beginning-search-menu
 zle -N history-beginning-search-menu
-bindkey '^J' history-beginning-search-menu
+bindkey '^N' history-beginning-search-menu
 
 # Enable reverse-i-search with Ctrl-R:
 bindkey '^R' history-incremental-pattern-search-backward
@@ -55,6 +55,7 @@ alias v='vim'
 
 # SETTING DEFAULTS
 export EDITOR="vim"
+export BROWSER="firefox"
 
 # Start X after logon
 if [[ -z $DISPLAY ]] && [[ $(tty) = /dev/tty1 ]]; then
