@@ -1,0 +1,35 @@
+snippet title "Basic title" b
+---
+title: $1
+author: Philip Thomas K.
+date: `date "+%d %B %y"`
+---
+
+[Back](../index.html)
+
+$0
+
+Best Regards,\
+Philip
+
+<center>[Back](../index.html)</center>
+endsnippet
+
+snippet kbd "Keyboard keys" wA
+<kbd>$1</kbd> $0
+endsnippet
+
+snippet mk "Math" wA
+$${1}$`!p
+if t[2] and t[2][0] not in [',', '.', '?', '-', ' ']:
+	snip.rv = ' '
+else:
+	snip.rv = ''
+`$2
+endsnippet
+
+snippet dm "Math" wA
+\[
+$1
+.\] $0
+endsnippet
