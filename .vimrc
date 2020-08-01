@@ -67,6 +67,9 @@ nnoremap <Down> gj
 " Remap Y to y$, because yy can already yank full lines
 nnoremap Y y$
 
+" Send line to command line and bring output into buffer with Q
+nnoremap Q !!sh<CR>
+
 " Toggle spellcheck with ,c
 noremap <leader>c :setlocal<space>spell!<CR>
 
