@@ -53,6 +53,12 @@ alias ca='clear; ls -a'
 alias cl='clear; ls -la'
 alias v='vim'
 
+# Git Aliases
+alias gs='git status'
+alias gd='git diff'
+alias gl='git log --decorate --all --graph'
+alias glo='git log --oneline --decorate --all --graph'
+
 # SETTING DEFAULTS
 export EDITOR="vim"
 export BROWSER="firefox"
