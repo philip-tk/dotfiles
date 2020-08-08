@@ -1,0 +1,3 @@
+dest-host: philip-tk@tom-raspberry
+dest-dir: /store/drv-backup/backup/Users/philip-tk/voidlinux
+src-dir: /home/void/Documents
