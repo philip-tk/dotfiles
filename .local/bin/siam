@@ -1,7 +1,0 @@
-#!/bin/sh
-
-# Runs command stated after in the background and sends output to /dev/null
-# For example:
-# `./siam firefox index.html`
-
-setsid -f "$@" > /dev/null 2>&1
