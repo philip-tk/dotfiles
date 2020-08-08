@@ -60,7 +60,7 @@
 
 # Shutdown
 "prompt 'Shutdown?' 'sudo runit-init 0'"
-  Alt + s
+  Shift+Alt + s
 
 # Reboot
 "prompt 'Reboot?' 'sudo runit-init 6'"
