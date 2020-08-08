@@ -66,6 +66,14 @@
 "prompt 'Reboot?' 'sudo runit-init 6'"
   Alt + r
 
+# Update Status bar
+"statupd"
+  Alt + u
+
+# next song cmus
+"cmus-remote -n"
+  Alt + n
+
 # play/pause cmus
 "cmus-remote -u"
   Alt + c
@@ -80,11 +88,11 @@
 
 # Open clipboard selection in mpv
 "mpv $(xclip -se c -o) > /dev/null 2>&1"
-  Alt + u
+  Alt + v
 
 # Open Syncthing
 "st syncthing"
-  Alt + y
+  Alt + s
 
 ##################################
 # End of xbindkeys configuration #
