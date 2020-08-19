@@ -54,8 +54,8 @@
 "prompt 'Sleep?' 'sudo zzz'"
   Alt + z
 
-# Hibernate
-"prompt 'Hibernate?' 'sudo ZZZ'"
+# No prompt sleep
+"sudo zzz"
   Shift+Alt + z
 
 # Shutdown
