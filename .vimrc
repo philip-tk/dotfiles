@@ -89,9 +89,10 @@ nnoremap <leader>f :Goyo<CR>
 " vimtex Configuration
 let g:tex_flavor='latex'
 
-" vimtex Configuration
+" tex-conceal Configuration
 set conceallevel=1
 let g:tex_conceal='abdgm'
+" This makes the background of glyphs the proper colour
 hi Conceal ctermbg=none
 
 " Ulti-Snip Configuration
