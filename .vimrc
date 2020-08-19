@@ -35,6 +35,8 @@ let mapleader=" "
 " Specify a directory for plugins 
 call plug#begin('~/.vim/plugged')
 
+Plug 'lervag/vimtex'			"latex text objects
+Plug 'KeitaNakamura/tex-conceal.vim'	"latex text concealment
 Plug 'junegunn/goyo.vim'		"Conducive environment for writing prose
 Plug 'crusoexia/vim-monokai'		"Monokai Colourscheme
 Plug 'SirVer/ultisnips'			"UltiSnips to create snippets
@@ -83,6 +85,14 @@ noremap <C-l> <C-w>l
 
 " toggle Goyo
 nnoremap <leader>f :Goyo<CR>
+
+" vimtex Configuration
+let g:tex_flavor='latex'
+
+" vimtex Configuration
+set conceallevel=1
+let g:tex_conceal='abdgm'
+hi Conceal ctermbg=none
 
 " Ulti-Snip Configuration
 "
