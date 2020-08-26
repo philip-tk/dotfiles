@@ -36,12 +36,11 @@ let mapleader=" "
 call plug#begin('~/.vim/plugged')
 
 Plug 'lervag/vimtex'			"latex text objects
-Plug 'KeitaNakamura/tex-conceal.vim'	"latex text concealment
-Plug 'junegunn/goyo.vim'		"Conducive environment for writing prose
 Plug 'crusoexia/vim-monokai'		"Monokai Colourscheme
 Plug 'SirVer/ultisnips'			"UltiSnips to create snippets
 Plug 'tpope/vim-surround'		"Better surround support
 Plug 'tpope/vim-commentary'		"Comment stuff out using gc
+Plug 'tpope/vim-repeat'			"Allows usage of '.' for plugin maps
 
 call plug#end()
 
@@ -83,17 +82,8 @@ noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
 
-" toggle Goyo
-nnoremap <leader>f :Goyo<CR>
-
 " vimtex Configuration
 let g:tex_flavor='latex'
-
-" tex-conceal Configuration
-set conceallevel=1
-let g:tex_conceal='abdgm'
-" This makes the background of glyphs the proper colour
-hi Conceal ctermbg=none
 
 " Ulti-Snip Configuration
 "
