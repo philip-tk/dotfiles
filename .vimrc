@@ -71,9 +71,13 @@ nnoremap Y y$
 " Send line to command line and bring output into buffer with Q
 nnoremap Q !!sh<CR>
 
-" Toggle spellcheck with ,c
+" Toggle spellcheck with _c
 noremap <leader>c :setlocal<space>spell!<CR>
 
+"Correct spelling mistakes with ctrl-l
+inoremap <C-l> <c-g>u<Esc>[s1z=`]a<c-g>u
+
+" Open terminal buffer with _t
 noremap <leader>t :bel term<CR>
 
 " Shortcutting split navigation, saving a keypress:
