@@ -23,7 +23,6 @@ set ignorecase				"Ignores case during autocompletion
 set infercase				"Infers case for autocompletion
 set mps+=<:>				"Matches quote pairs and angular brackets
 set dictionary+=/usr/share/dict/words	"Shows vim where the dictionary is.
-set directory=$HOME/.vim//swapfiles//	"Moves swapfiles out of $HOME
 set omnifunc=syntaxcomplete#Complete	"Omnifunction completion
 filetype plugin indent on		"Filetype plugin with indent support
 syntax on				"Allows syntax highlighting
