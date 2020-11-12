@@ -22,7 +22,11 @@ PS1="[%n@%B%F{81}%m %b%f%~]$ "
 PATH="$HOME/.local/bin:${PATH}"
 export PATH
 
-# History in cashe directory:
+# Remove less history file
+LESSHISTFILE="-"
+export LESSHISTFILE
+
+# History in cache directory:
 HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=~/.cache/zsh/history
