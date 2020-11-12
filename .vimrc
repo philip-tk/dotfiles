@@ -24,6 +24,7 @@ set infercase				"Infers case for autocompletion
 set mps+=<:>				"Matches quote pairs and angular brackets
 set dictionary+=/usr/share/dict/words	"Shows vim where the dictionary is.
 set omnifunc=syntaxcomplete#Complete	"Omnifunction completion
+set scrolloff=5				"Five line buffer to edge
 filetype plugin indent on		"Filetype plugin with indent support
 syntax on				"Allows syntax highlighting
 
