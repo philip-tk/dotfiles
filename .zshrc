@@ -19,6 +19,10 @@ export KEYTIMEOUT=1
 PS1="[%n@%B%F{81}%m %b%f%~]$ "
 
 # Add Local scripts to $PATH
+GOPATH="$HOME/Documents/Coding/go"
+export GOPATH
+
+# Add Local scripts to $PATH
 PATH="$HOME/.local/bin:${PATH}"
 export PATH
 
