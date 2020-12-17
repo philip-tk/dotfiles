@@ -37,6 +37,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'lervag/vimtex'			"latex text objects
 Plug 'crusoexia/vim-monokai'		"Monokai Colourscheme
+Plug 'skamsie/vim-lineletters'		"Jump to lines in the buffer using letters
 Plug 'SirVer/ultisnips'			"UltiSnips to create snippets
 Plug 'tpope/vim-surround'		"Better surround support
 Plug 'tpope/vim-commentary'		"Comment stuff out using gc
@@ -57,9 +58,9 @@ inoremap " ""<Left>
 
 " Insert mode movements
 inoremap jk <Right>
-inoremap jj <Down>
-inoremap kk <Up>
-inoremap kj <Left>
+
+" , activates lineletters
+nmap <silent>, <Plug>LineLetters
 
 " move vertically by visual line
 nnoremap <Up> gk
