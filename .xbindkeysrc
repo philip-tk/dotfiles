@@ -74,10 +74,6 @@
 "cmus-remote -n"
   Alt + n
 
-# play/pause cmus
-"cmus-remote -u"
-  Alt + c
-
 # Open Zathura
 "zathura"
   Alt + o
